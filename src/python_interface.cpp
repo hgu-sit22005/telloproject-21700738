@@ -4,7 +4,12 @@
 #include "takeoff.h"
 #include "land.h"
 #include "Up.h"
-#include "Down.h"//추가됨.
+#include "Down.h"
+#include "Forward.h"
+#include "Back.h"
+#include "Cw.h"
+#include "Ccw.h"
+//추가됨.
 //#include "Flip.h"
 
 TelloPro* get_instance(boost::python::str _inst, int _val)
@@ -20,13 +25,17 @@ TelloPro* get_instance(boost::python::str _inst, int _val)
 	else if(instance == "down")
 		return new Down(_val);
 	else if(instance == "left")
-		return new Down(_val);
+		return new Left(_val);
 	else if(instance == "right")
-		return new Down(_val);
+		return new Right(_val);
 	else if(instance == "forward")
-		return new Down(_val);
+		return new Forward(_val);
 	else if(instance == "back")
-		return new Down(_val);
+		return new Back(_val);
+	else if(instance == "cw")
+		return new Cw(_val);
+	else if(instance == "ccw")
+		return new Ccw(_val);
 	else
 		return nullptr;//여기까지 수정)보여주심.
 }
