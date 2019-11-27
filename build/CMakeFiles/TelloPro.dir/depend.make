@@ -10648,7 +10648,13 @@ CMakeFiles/TelloPro.dir/src/land.cpp.o: /usr/local/include/boost/utility/value_i
 CMakeFiles/TelloPro.dir/src/land.cpp.o: /usr/local/include/boost/version.hpp
 CMakeFiles/TelloPro.dir/src/land.cpp.o: /usr/local/include/boost/visit_each.hpp
 
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Back.h
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Ccw.h
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Cw.h
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Down.h
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Forward.h
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Left.h
+CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Right.h
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/TelloPro.h
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/Up.h
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o: ../src/land.h

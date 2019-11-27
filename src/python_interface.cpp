@@ -5,11 +5,12 @@
 #include "land.h"
 #include "Up.h"
 #include "Down.h"
+#include "Left.h"
+#include "Right.h"
 #include "Forward.h"
 #include "Back.h"
 #include "Cw.h"
-#include "Ccw.h"
-//추가됨.
+#include "Ccw.h"//추가됨.
 //#include "Flip.h"
 
 TelloPro* get_instance(boost::python::str _inst, int _val)
@@ -49,4 +50,5 @@ BOOST_PYTHON_MODULE(TelloPro)
 		.def("get_command", &TelloPro::get_command)//어떤 변수가 있음을 알려줌.
 		.def("get_delay", &TelloPro::get_delay);
 }//파이선과 c++을 연결해주는 부분.
+
 

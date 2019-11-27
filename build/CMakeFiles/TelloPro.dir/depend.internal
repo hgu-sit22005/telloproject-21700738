@@ -10649,7 +10649,13 @@ CMakeFiles/TelloPro.dir/src/land.cpp.o
  /usr/local/include/boost/version.hpp
  /usr/local/include/boost/visit_each.hpp
 CMakeFiles/TelloPro.dir/src/python_interface.cpp.o
+ /data/telloproject-21700738/src/Back.h
+ /data/telloproject-21700738/src/Ccw.h
+ /data/telloproject-21700738/src/Cw.h
  /data/telloproject-21700738/src/Down.h
+ /data/telloproject-21700738/src/Forward.h
+ /data/telloproject-21700738/src/Left.h
+ /data/telloproject-21700738/src/Right.h
  /data/telloproject-21700738/src/TelloPro.h
  /data/telloproject-21700738/src/Up.h
  /data/telloproject-21700738/src/land.h
